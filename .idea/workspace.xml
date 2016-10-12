@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08ece37f-5546-45a9-a87f-8d01a92620d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Day2/EmployeeProgramme/GUI/Swing.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java_Bootcamp_Wk2/Day2/EmployeeProgramme/GUI/AddressInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java_Bootcamp_Wk2/Day2/EmployeeProgramme/GUI/CommandInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Day2/EmployeeProgramme/GUI/AddressInterface.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_Bootcamp_Wk2/Day2/AddressBook/Address.class" afterPath="$PROJECT_DIR$/out/production/Java_Bootcamp_Wk2/Day2/AddressBook/Address.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_Bootcamp_Wk2/Day2/EmployeeProgramme/Processor/MainProgramme.class" afterPath="$PROJECT_DIR$/out/production/Java_Bootcamp_Wk2/Day2/EmployeeProgramme/Processor/MainProgramme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_Bootcamp_Wk2/Day2/EmployeeProgramme/Processor/TaskProcessing.class" afterPath="$PROJECT_DIR$/out/production/Java_Bootcamp_Wk2/Day2/EmployeeProgramme/Processor/TaskProcessing.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Day2/AddressBook/Address.java" afterPath="$PROJECT_DIR$/src/Day2/AddressBook/Address.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Day2/AddressBook/GenerateAddress.java" afterPath="$PROJECT_DIR$/src/Day2/AddressBook/GenerateAddress.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Day2/EmployeeProgramme/GUI/CommandInterface.java" afterPath="$PROJECT_DIR$/src/Day2/EmployeeProgramme/GUI/CommandInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Day2/EmployeeProgramme/Models/Employee.java" afterPath="$PROJECT_DIR$/src/Day2/EmployeeProgramme/Models/Employee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Day2/EmployeeProgramme/Models/GenerateEmployee.java" afterPath="$PROJECT_DIR$/src/Day2/EmployeeProgramme/Models/GenerateEmployee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Day2/EmployeeProgramme/Processor/MainProgramme.java" afterPath="$PROJECT_DIR$/src/Day2/EmployeeProgramme/Processor/MainProgramme.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Day2/EmployeeProgramme/Processor/TaskProcessing.java" afterPath="$PROJECT_DIR$/src/Day2/EmployeeProgramme/Processor/TaskProcessing.java" />
-    </list>
+    <list default="true" id="08ece37f-5546-45a9-a87f-8d01a92620d4" name="Default" comment="" />
     <ignored path="Java_Bootcamp_Wk2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,108 +21,7 @@
     <favorites_list name="Java_Bootcamp_Wk2" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5250404">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="GenerateAddress.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Day2/AddressBook/GenerateAddress.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#634#0" expanded="true" />
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Swing.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Day2/EmployeeProgramme/GUI/Swing.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-825">
-                  <caret line="127" column="42" selection-start-line="127" selection-start-column="42" selection-end-line="127" selection-end-column="42" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1040#1534#0" expanded="true" />
-                    <element signature="e#1533#1534#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Address.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Day2/AddressBook/Address.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-                  <folding>
-                    <element signature="e#336#337#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="GenerateEmployee.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Day2/EmployeeProgramme/Models/GenerateEmployee.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="MainProgramme.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Day2/EmployeeProgramme/Processor/MainProgramme.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CommandInterface.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Day2/EmployeeProgramme/GUI/CommandInterface.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TaskProcessing.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Day2/EmployeeProgramme/Processor/TaskProcessing.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="333">
-                  <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Employee.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Day2/EmployeeProgramme/Models/Employee.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="585">
-                  <caret line="47" column="70" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
-                  <folding>
-                    <element signature="e#535#536#0" expanded="true" />
-                    <element signature="e#565#566#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -995,12 +878,12 @@
       <workItem from="1476090514632" duration="16360000" />
       <workItem from="1476173795221" duration="20322000" />
       <workItem from="1476214376885" duration="292000" />
-      <workItem from="1476260181089" duration="16313000" />
+      <workItem from="1476260181089" duration="16579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53287000" />
+    <option name="totallyTimeSpent" value="53553000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1013,7 +896,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1023,7 +906,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28082192" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28082192" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1243,6 +1126,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Day2/EmployeeProgramme/Models/GenerateEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Day2/EmployeeProgramme/Processor/MainProgramme.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1256,17 +1147,6 @@
         <state relative-caret-position="315">
           <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Day2/AddressBook/GenerateAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#634#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1289,17 +1169,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Day2/EmployeeProgramme/Models/GenerateEmployee.java">
+    <entry file="file://$PROJECT_DIR$/src/Day2/AddressBook/GenerateAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#634#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Day2/EmployeeProgramme/GUI/Swing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-825">
+        <state relative-caret-position="150">
           <caret line="127" column="42" selection-start-line="127" selection-start-column="42" selection-end-line="127" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
