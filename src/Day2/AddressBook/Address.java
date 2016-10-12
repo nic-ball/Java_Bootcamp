@@ -12,6 +12,12 @@ public class Address {
     private String county;
     private String postCode;
 
+
+    @Override
+    public String toString() {
+        return String.format("Address: %s %s %s %s  %s %s", super.toString());
+    }
+
     public int getDoorNumber() {
         return doorNumber;
     }
@@ -50,18 +56,6 @@ public class Address {
 
     public void setPostCode(String postCode) {
         this.postCode = postCode;
-    }
-
-    @Override
-    public String toString() {
-        return "Address{" +
-                "doorNumber=" + doorNumber +
-                ", firstLineAddress='" + firstLineAddress + '\'' +
-                ", secondLineAddress='" + secondLineAddress + '\'' +
-                ", townCity='" + townCity + '\'' +
-                ", county='" + county + '\'' +
-                ", postCode='" + postCode + '\'' +
-                '}';
     }
 
     public String getCounty() {

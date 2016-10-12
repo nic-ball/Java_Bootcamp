@@ -23,6 +23,7 @@ public class CommandInterface {
                 System.out.println("3. Edit Employees");
                 System.out.println("4. Remove Employees");
                 System.out.println("5. Search For Employees");
+                System.out.println("6. Exit");
                 choice = input.nextInt();
             } while (choice < 1 || choice > 6);
 

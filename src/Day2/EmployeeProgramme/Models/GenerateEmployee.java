@@ -12,12 +12,12 @@ public class GenerateEmployee {
     public static List<Employee> employees;
 
     public static void createEmployee() {
-        Employee nic = new Employee("Nic", "Ball",
+        Employee nic = new Employee(0,"Nic", "Ball",
                 LocalDate.of(1981, 6, 23),
                 LocalDate.of(2016, 9, 26),
                 "Apprentice");
 
-        Employee batman = new Employee("Bat", "Man",
+        Employee batman = new Employee(1,"Bat", "Man",
                 LocalDate.of(1939, 5, 19),
                 LocalDate.of(2016, 10, 10),
                 "Dark Knight");

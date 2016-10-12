@@ -7,23 +7,23 @@ import java.time.LocalDate;
  */
 public class Employee extends Person {
 
+
+    private int id;
     private LocalDate hireDate;
-
-    @Override
-    public String toString() {
-        return String.format("Employee: %s %s %s", super.toString(),
-                hireDate.toString(), jobRole.toString());
-    }
-
     private String jobRole;
 
     //constructor
     public Employee() {}
 
-    public Employee(String fn, String ln, LocalDate dob, LocalDate hireDate, String jobRole) {
+    public Employee(int id, String fn, String ln, LocalDate dob, LocalDate hireDate, String jobRole) {
         super(fn, ln, dob);
+        this.id = id;
         this.hireDate = hireDate;
         this.jobRole = jobRole;
+    }
+
+    public int getId() {
+        return this.id;
     }
 
 
@@ -42,4 +42,11 @@ public class Employee extends Person {
     public void setJobRole(String jobRole) {
         this.jobRole = jobRole;
     }
+
+    @Override
+    public String toString() {
+        return String.format("Employee: [%s] %s %s %s", this.getId(), super.toString(),
+                hireDate.toString(), jobRole.toString());
+    }
 }
+
