@@ -29,7 +29,7 @@ public class CommandInterface {
 
             switch (choice) {
                 case 1:
-                    TaskProcessing.listAll();
+                    //TaskProcessing.listAll();
                     display();
                     break;
                 case 2:
@@ -37,7 +37,7 @@ public class CommandInterface {
                     break;
                 case 5:
                     System.out.println("Enter first Name to Search: ");
-                    System.out.println(TaskProcessing.SearchByFirstName(input.next()));
+                    //System.out.println(TaskProcessing.SearchByFirstName(input.next()));
                     break;
                 case 6:
                     _isRunning = false;

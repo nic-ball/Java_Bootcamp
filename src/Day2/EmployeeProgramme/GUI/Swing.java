@@ -1,6 +1,8 @@
 package Day2.EmployeeProgramme.GUI;
 
 import Day2.EmployeeProgramme.Models.Employee;
+import Day2.EmployeeProgramme.Processor.TaskProcessing;
+import com.sun.codemodel.internal.JOp;
 
 import javax.swing.*;
 import javax.swing.border.EtchedBorder;
@@ -10,6 +12,7 @@ import javax.swing.event.ListSelectionListener;
 import java.awt.*;
 import java.awt.event.*;
 
+import static Day2.EmployeeProgramme.Models.GenerateEmployee.createEmployee;
 import static Day2.EmployeeProgramme.Models.GenerateEmployee.employees;
 
 /**
@@ -50,7 +53,7 @@ public class Swing implements ActionListener {
         //set gridLayout
         JPanel content = (JPanel) mainFrame.getContentPane();
         content.setLayout(new GridLayout(1, 2, 5, 5));
-        content.setBackground(Color.ORANGE);
+        content.setBackground(Color.GRAY);
 
         prepareJList();
 
@@ -203,6 +206,19 @@ public class Swing implements ActionListener {
         JPanel btnPanel = new JPanel();
         btnPanel.setLayout(new FlowLayout(FlowLayout.RIGHT));
 
+        JButton btnAdd = new JButton("Add");
+        btnAdd.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+
+
+        //implement action when a button is clicked
+        btnPanel.add(btnAdd);
+
+
         JButton btnUpdate = new JButton("Update");
         btnUpdate.addActionListener(new ActionListener() {
             @Override
@@ -211,15 +227,44 @@ public class Swing implements ActionListener {
             }
         });
 
+
         //implement action when a button is clicked
         btnPanel.add(btnUpdate);
+
+
+        JButton btnRemove = new JButton("Remove");
+        btnRemove.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+
+
+        //implement action when a button is clicked
+        btnPanel.add(btnRemove);
+
+        JButton btnClear = new JButton("Clear");
+        btnClear.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+
+
+
+        //implement action when a button is clicked
+        btnPanel.add(btnClear);
+
+
 
 
         return btnPanel;
     }
 
     private void loadEmployeeField(int index) {
-        Employee temp = employees.get(index);
+        Employee temp = employees.get(index-1);
         txtFirstName.setText(temp.getFirstName());
         txtLastName.setText(temp.getSurname());
         txtDob.setText(temp.getDob().toString());
@@ -240,10 +285,18 @@ public class Swing implements ActionListener {
             System.exit(0);
         }
         else if("list".equals(action)) {
-
+            createEmployeeList();
         }
         else if("Search".equals(action)) {
-    }
+            String fn = JOptionPane.showInputDialog("Enter First Name: ", "");
+            try {
+                TaskProcessing.searchByFirstName(fn);
+                createEmployee();
+            } catch (Exception ex) {
+                JOptionPane.showMessageDialog(null, "Error :" + ex);
+                employees.clear();
+            }
+        }
 
 }}
 

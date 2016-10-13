@@ -9,7 +9,7 @@ import java.util.List;
  */
 //factory
 public class GenerateEmployee {
-    public static List<Employee> employees;
+    public static List<Employee> employees = new ArrayList<>();
 
     public static void createEmployee() {
         Employee nic = new Employee(0,"Nic", "Ball",
@@ -22,10 +22,16 @@ public class GenerateEmployee {
                 LocalDate.of(2016, 10, 10),
                 "Dark Knight");
 
+        Employee rick = new Employee(2, "Rick", "Sanchez",
+                LocalDate.of(1955, 7, 4),
+                LocalDate.of(2014, 8, 12),
+                "Scientist");
+
         //amazing collection type
         employees = new ArrayList<>();
-        employees.add(nic);
-        employees.add(batman);
+        //employees.add(nic);
+        //employees.add(batman);
+        //employees.add(rick);
     }
 
 }
